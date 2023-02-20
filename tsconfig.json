@@ -24,6 +24,17 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/pages/index.tsx",
+    "src/pages/_app.tsx",
+    "src/components/Navbar.js",
+    "src/app/layout.tsx",
+    "src/app/head.tsx",
+    "lib/firebase.tsx"
+  ],
   "exclude": ["node_modules"]
 }
